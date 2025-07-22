@@ -1,26 +1,11 @@
 {
-  "name": "dreate",
-  "version": "1.0.0",
-  "description": "🔥 A modern, Cargo-like, customizable C/C++ build utility",
-  "keywords": [
-    "C",
-    "C++",
-    "build",
-    "modern",
-    "customizable"
-  ],
-  "homepage": "https://github.com/WeariTraveller/dreate#readme",
-  "bugs": {
-    "url": "https://github.com/WeariTraveller/dreate/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WeariTraveller/dreate.git"
-  },
-  "license": "GPL-3.0-or-later",
-  "author": "WeariTraveller",
+  "name": "dreate-project",
+  "version": "0.0.0",
+  "private": true,
   "type": "module",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "jest"
   },

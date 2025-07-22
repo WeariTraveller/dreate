@@ -12,6 +12,26 @@ importers:
         specifier: ^30.0.4
         version: 30.0.4(@types/node@24.0.13)
 
+  packages/cli:
+    dependencies:
+      '@dreate/core':
+        specifier: workspace:^
+        version: link:../core
+
+  packages/core:
+    optionalDependencies:
+      '@dreate/main-toolchain':
+        specifier: workspace:^
+        version: link:../main-toolchain
+
+  packages/main-toolchain:
+    dependencies:
+      '@dreate/protocol-utils':
+        specifier: workspace:^
+        version: link:../protocol-utils
+
+  packages/protocol-utils: {}
+
 packages:
 
   '@ampproject/remapping@2.3.0':

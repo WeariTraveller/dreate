@@ -1,0 +1,30 @@
+{
+  "name": "@dreate/main-toolchain",
+  "version": "0.0.0",
+  "description": "Provide Dreate's support for main toolchains",
+  "keywords": [
+    "node",
+    "dreate",
+    "toolchain",
+    "dreate-preset"
+  ],
+  "homepage": "https://github.com/WeariTraveller/dreate#readme",
+  "bugs": {
+    "url": "https://github.com/WeariTraveller/dreate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeariTraveller/dreate.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "WeariTraveller",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "@dreate/protocol-utils": "workspace:^"
+  }
+}
