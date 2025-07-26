@@ -23,19 +23,19 @@ importers:
 
   packages/cli:
     dependencies:
-      '@dreate/core':
+      '@kraftiv/core':
         specifier: workspace:^
         version: link:../core
 
   packages/core:
     optionalDependencies:
-      '@dreate/main-toolchain':
+      '@kraftiv/main-chains':
         specifier: workspace:^
         version: link:../main-toolchain
 
-  packages/main-toolchain:
+  packages/main-chains:
     dependencies:
-      '@dreate/protocol-utils':
+      '@kraftiv/protocol-utils':
         specifier: workspace:^
         version: link:../protocol-utils
 

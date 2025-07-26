@@ -1,5 +1,5 @@
 {
-  "name": "@dreate/cli",
+  "name": "@kraftiv/cli",
   "version": "0.0.0",
   "description": "🔥 A modern, Cargo-like, customizable C/C++ build utility; the cli part",
   "keywords": [
@@ -9,16 +9,16 @@
     "modern",
     "customizable",
     "node",
-    "dreate",
+    "kraft",
     "cli"
   ],
-  "homepage": "https://github.com/WeariTraveller/dreate#readme",
+  "homepage": "https://github.com/WeariTraveller/kraft#readme",
   "bugs": {
-    "url": "https://github.com/WeariTraveller/dreate/issues"
+    "url": "https://github.com/WeariTraveller/kraft/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WeariTraveller/dreate.git"
+    "url": "git+https://github.com/WeariTraveller/kraft.git"
   },
   "license": "GPL-3.0-or-later",
   "author": "WeariTraveller",
@@ -28,6 +28,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@dreate/core": "workspace:^"
+    "@kraftiv/core": "workspace:^"
   }
 }
