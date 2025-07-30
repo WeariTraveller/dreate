@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "nano-staged": "nano-staged --allow-empty",
+    "fmt-staged": "nano-staged",
     "test": "jest"
   },
   "packageManager": "pnpm@10.13.1",
